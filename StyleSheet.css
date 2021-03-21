@@ -1,0 +1,24 @@
+div{
+    border:1px solid black;
+    width: 500px; /*largezza complessiva:500+12+12+1+1=526*/
+    height: 80px; /*larg. comp. 60+12+12+1+1=86*/
+    padding: 12px; /*spazziatura tra testo e bordo*/
+    margin: 20px;
+}
+.div1{
+    /*Overflow: visibol*/
+    /*hiden rende invisibile il testo che sborda*/
+    /*auto mette se il testo sborda una barra di scorrimento*/
+    /*scroll mette fisse 2 barre di scorrimento*/
+    overflow: auto;
+}
+.div2 p{
+    margin: 0px;
+    padding: 0px;
+    height: 80px;
+    width: 500px;
+    overflow: auto;
+}
+.div2{
+    padding-right: 0px;
+}
